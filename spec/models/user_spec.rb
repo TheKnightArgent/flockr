@@ -7,9 +7,6 @@ describe User do
       user.should_not be_valid
     end
 
-    it "fails validation" do
-      expect(User.new).to have(1).error_on(:email)
-    end
   end
 
   context "with an email address" do
@@ -42,5 +39,11 @@ describe User do
       u2.should_not be_valid
     end
 
+  end
+
+  it "can have many photos" do
+    u = User.new(email:"q@b.com", username: "Joe")
+    2.times { u.photos << Photo.new }
+    expect(u).to be_valid
   end
 end
