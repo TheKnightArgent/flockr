@@ -42,8 +42,16 @@ describe User do
   end
 
   it "can have many photos" do
-    u = User.new(email:"q@b.com", username: "Joe")
+    u = User.new(email: "q@b.com", username: "Joe")
     2.times { u.photos << Photo.new }
     expect(u).to be_valid
+  end
+
+  describe "#destroy" do
+    it "destroys associated photos" do
+    photo = Photo.new
+    user = User.create!(email: "j@b.com", username: "Joe", photos: [photo])
+    expect {user.destroy}.to change {Photo.count}.by -1
+    end
   end
 end

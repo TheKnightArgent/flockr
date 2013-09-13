@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d44043b-aa34-4b39-b85f-aca08ea37b3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/photo.rb" afterPath="$PROJECT_DIR$/app/models/photo.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/photo_spec.rb" afterPath="$PROJECT_DIR$/spec/models/photo_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
     <ignored path="flockr.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379034401135" ignored="false" />
-    <file path="/user_spec.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379038626400" ignored="false" />
-    <file path="/user.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379038650151" ignored="false" />
+    <file path="/user_spec.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379040246571" ignored="false" />
+    <file path="/user.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379039913417" ignored="false" />
     <file path="/photo.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379039060667" ignored="false" />
     <file path="/photo_spec.rb" changelist="9d44043b-aa34-4b39-b85f-aca08ea37b3b" time="1379038951365" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="7" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
+            <state line="57" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.81785715">
               <folding />
             </state>
           </provider>
@@ -64,7 +61,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130913022713_add_user_ref_to_photos.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20130913022713_add_user_ref_to_photos.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130913022713_add_user_ref_to_photos.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -125,10 +122,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/models/photo_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/photo.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
       </list>
     </option>
   </component>
@@ -680,20 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="7" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/photo_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
@@ -718,6 +701,20 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20130913022713_add_user_ref_to_photos.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.81785715">
           <folding />
         </state>
       </provider>
